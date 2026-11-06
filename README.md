@@ -41,7 +41,7 @@ p2-api/
 
 4. Run the FastAPI server:
    uvicorn app:app --reload
-   (The server will run locally at http://127.0.0.1:8000)
+   (The server will run locally at http://127.0.0.1:8000/docs)
 
 ---
 
