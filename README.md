@@ -6,6 +6,7 @@ A production-ready FastAPI backend serving deep learning image classification mo
 
 ## 📂 Project Structure
 p2-api/
+
 ├── .venv/             # Isolated Python virtual environment
 
 ├── app.py   # Main FastAPI application & endpoint definitions
@@ -73,7 +74,7 @@ p2-api/
 Using Little's Law:
 * At a p50 latency of 87 ms (0.087 s), a single worker handles ~11.49 requests/second.
 * Scaled to a full 24-hour day (86,400 seconds):
-  Daily Capacity = 11.49 * 86,400 = ~992,700 requests/day per worker.
+  Daily Capacity = 11.494 * 86,400 = ~993,100 requests/day per worker.
 
 ---
 
