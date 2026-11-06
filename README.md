@@ -6,18 +6,12 @@ A production-ready FastAPI backend serving deep learning image classification mo
 
 ## 📂 Project Structure
 p2-api/
-├── .venv/             
-# Isolated Python virtual environment
-├── app.py   
-# Main FastAPI application & endpoint definitions
-├── test_api.py 
-# Pytest suite (includes parity and input validation tests)
-├── bench.py    
-# Latency benchmarking script (n=50)
-├── week6_model.pt   
-# PyTorch trained model weights
-├── sample.jpeg   
-# Default validation test image
+├── .venv/             # Isolated Python virtual environment
+├── app.py   # Main FastAPI application & endpoint definitions
+├── test_api.py # Pytest suite (includes parity and input validation tests)
+├── bench.py    # Latency benchmarking script (n=50)
+├── week6_model.pt   # PyTorch trained model weights
+├── sample.jpeg   # Default validation test image
 └── README.md            # Project documentation
 
 ---
