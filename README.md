@@ -22,6 +22,9 @@ p2-api/
 └── README.md            # Project documentation
 
 ---
+### 1. Swagger UI Overview (App Interface):
+![Picture 1: App Interface and Swagger UI Overview](<img width="512" height="272" alt="pic" src="https://github.com/user-attachments/assets/5f293738-7fca-4b8f-b3d2-56e12618e068" />
+)
 
 ## 🛠️ API Endpoints
 
@@ -38,17 +41,23 @@ p2-api/
    ],
    "positive": "PNEUMONIA"
   }
-Health Check (/health)
+Health Check (/health):
 ![Picture 2: GET /health Endpoint Response](<img width="739" height="576" alt="pic1" src="https://github.com/user-attachments/assets/2db15870-e4a3-47d2-ab1e-4fbfa4afac5a" />
 
 )
 
 * **POST /predict**
   Description: Accepts an image file upload (sample.jpeg, with optional x-api-key header), validates format constraints, runs inference through the PyTorch model, and returns class probabilities and latency.
-  Image Prediction (/predict)
-  ![Picture 3: POST /predict Request and Live Response]("C:\Users\Rafi Haider\Downloads\pic2.png") 
+  Image Prediction (/predict):
+![Picture 3: POST /predict Request and Live Response](<img width="512" height="405" alt="pic2" src="https://github.com/user-attachments/assets/1fca7497-23f9-47a2-8e2d-cc9ec0135b7e" /> <img width="512" height="247" alt="pic_2" src="https://github.com/user-attachments/assets/5679b892-1e7e-469b-9884-18a856de6f8c" />
+
+)
 * **POST /analyze**
  Description: Accepts an image file upload along with a text note (and optional x-api-key header) to perform combined vision prediction, note handling, urgency/decision routing, and decision-support output.
+Combined Vision + Note Analysis (/analyze):
+![Picture 6: POST /analyze Response Schemas (200 & 422)](<img width="512" height="425" alt="pic3" src="https://github.com/user-attachments/assets/50c50393-67f8-4b58-9150-104587fdc202" /> <img width="732" height="562" alt="pic_3" src="https://github.com/user-attachments/assets/4aa58f4d-575a-47ed-94e4-f87996476279" />
+
+)
 ---
 
 ## ⚙️ Local Setup & Execution
