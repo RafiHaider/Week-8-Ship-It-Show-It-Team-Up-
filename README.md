@@ -23,8 +23,7 @@ p2-api/
 
 ---
 ###  Swagger UI Overview (App Interface):
-![Picture 1: App Interface and Swagger UI Overview](<img width="512" height="272" alt="pic" src="https://github.com/user-attachments/assets/5f293738-7fca-4b8f-b3d2-56e12618e068" />
-)
+<img width="512" height="272" alt="pic" src="https://github.com/user-attachments/assets/e5db2b09-d863-4b83-b39e-092f711b84f7" />
 
 ## 🛠️ API Endpoints
 
@@ -124,5 +123,4 @@ Using Little's Law:
 The API includes strict request validation and handles invalid or malformed inputs safely:
 * **Invalid File Type/Schema Mismatch:** Returns 415 Unsupported Media Type or 422 Unprocessable Entity.
 * **Missing Payload:** Handled via Pydantic schemas without exposing raw stack traces.
-<img width="512" height="405" alt="pic2" src="https://github.com/user-attachments/assets/34cb1d42-a4fe-4afa-a182-571941bd8ae3" />
 
