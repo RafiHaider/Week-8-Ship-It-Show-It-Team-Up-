@@ -48,9 +48,6 @@ Health Check (/health)
   Image Prediction (/predict)
   ![Picture 3: POST /predict Request and Live Response](<img width="512" height="405" alt="pic2" src="https://github.com/user-attachments/assets/1352aa39-78a1-4593-ac14-6fb6b7bf493e" />
 ) 
-
-![Picture 3: POST /predict Request and Live Response](<img width="512" height="247" alt="pic_2" src="https://github.com/user-attachments/assets/acfd2d02-4afe-417b-a757-c49333e4d260" />
-)
 * **POST /analyze**
  Description: Accepts an image file upload along with a text note (and optional x-api-key header) to perform combined vision prediction, note handling, urgency/decision routing, and decision-support output.
 ---
