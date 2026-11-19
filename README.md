@@ -1,4 +1,4 @@
-# 🚀 P2-API: FastAPI Deep Learning Inference Service
+<img width="739" height="576" alt="pic1" src="https://github.com/user-attachments/assets/78aa5215-b872-4c26-9679-655d44d696e7" /># 🚀 P2-API: FastAPI Deep Learning Inference Service
 
 A production-ready FastAPI backend serving deep learning image classification models with robust input validation, error handling, automated testing, and latency benchmarking. Developed for Lab 8 coursework.
 
@@ -39,7 +39,8 @@ p2-api/
    "positive": "PNEUMONIA"
   }
 Health Check (/health)
-![Picture 2: GET /health Endpoint Response](<img width="739" height="576" alt="image" src="https://github.com/user-attachments/assets/5530ed9a-50bb-4de0-a678-751128ae7396" />
+![Picture 2: GET /health Endpoint Response](<img width="739" height="576" alt="pic1" src="https://github.com/user-attachments/assets/2db15870-e4a3-47d2-ab1e-4fbfa4afac5a" />
+
 )
 
 * **POST /predict**
