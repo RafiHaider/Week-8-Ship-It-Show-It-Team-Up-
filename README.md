@@ -1,4 +1,4 @@
-<img width="739" height="576" alt="pic1" src="https://github.com/user-attachments/assets/78aa5215-b872-4c26-9679-655d44d696e7" /># 🚀 P2-API: FastAPI Deep Learning Inference Service
+# 🚀 P2-API: FastAPI Deep Learning Inference Service
 
 A production-ready FastAPI backend serving deep learning image classification models with robust input validation, error handling, automated testing, and latency benchmarking. Developed for Lab 8 coursework.
 
@@ -45,7 +45,11 @@ Health Check (/health)
 
 * **POST /predict**
   Description: Accepts an image file upload (sample.jpeg, with optional x-api-key header), validates format constraints, runs inference through the PyTorch model, and returns class probabilities and latency.
-
+  Image Prediction (/predict)
+  ![Picture 3: POST /predict Request and Live Response](<img width="512" height="405" alt="pic2" src="https://github.com/user-attachments/assets/1352aa39-78a1-4593-ac14-6fb6b7bf493e" />
+) 
+![Picture 3: POST /predict Request and Live Response](<img width="512" height="247" alt="pic_2" src="https://github.com/user-attachments/assets/acfd2d02-4afe-417b-a757-c49333e4d260" />
+)
 * **POST /analyze**
  Description: Accepts an image file upload along with a text note (and optional x-api-key header) to perform combined vision prediction, note handling, urgency/decision routing, and decision-support output.
 ---
