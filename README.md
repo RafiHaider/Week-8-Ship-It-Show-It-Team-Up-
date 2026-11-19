@@ -46,7 +46,7 @@ Health Check (/health)
 * **POST /predict**
   Description: Accepts an image file upload (sample.jpeg, with optional x-api-key header), validates format constraints, runs inference through the PyTorch model, and returns class probabilities and latency.
   Image Prediction (/predict)
-  ![Picture 3: POST /predict Request and Live Response](<img width="512" height="405" alt="pic2" src="https://github.com/user-attachments/assets/1352aa39-78a1-4593-ac14-6fb6b7bf493e" />
+  ![Picture 3: POST /predict Request and Live Response](<img width="512" height="405" alt="pic2" src="https://github.com/user-attachments/assets/34cb51c6-af99-45e8-88c3-a39c2d076f20" />
 ) 
 * **POST /analyze**
  Description: Accepts an image file upload along with a text note (and optional x-api-key header) to perform combined vision prediction, note handling, urgency/decision routing, and decision-support output.
