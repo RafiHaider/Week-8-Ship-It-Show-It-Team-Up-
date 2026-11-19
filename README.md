@@ -38,8 +38,9 @@ p2-api/
    ],
    "positive": "PNEUMONIA"
   }
-### 2. Health Check (/health)
-![Picture 2: GET /health Endpoint Response](screenshots/2_health_endpoint.png)
+Health Check (/health)
+![Picture 2: GET /health Endpoint Response](<img width="739" height="576" alt="image" src="https://github.com/user-attachments/assets/5530ed9a-50bb-4de0-a678-751128ae7396" />
+)
 
 * **POST /predict**
   Description: Accepts an image file upload (sample.jpeg, with optional x-api-key header), validates format constraints, runs inference through the PyTorch model, and returns class probabilities and latency.
