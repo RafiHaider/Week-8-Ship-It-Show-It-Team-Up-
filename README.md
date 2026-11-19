@@ -27,7 +27,18 @@ p2-api/
 
 * **GET /health**
   * Description: Health check endpoint to verify server status.
-  * Response: {"status": "healthy"}
+  * Response:
+   ``` JSON
+  {
+   "status": "ok",
+   "model_loaded": true,
+   "classes": [
+     "NORMAL",
+     "PNEUMONIA"
+   ],
+   "positive": "PNEUMONIA"
+  }
+    
 
 * **POST /predict**
   * Description: Accepts an image file upload, validates format constraints, runs inference through the PyTorch model, and returns prediction results.
